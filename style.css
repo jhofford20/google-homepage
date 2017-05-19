@@ -1,0 +1,145 @@
+a, .search_button {
+	font-family: sans-serif;
+	text-decoration: none;
+	color: #670;
+}
+
+#top_nav {
+	text-align: right;
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+
+li {
+    display: inline-block;
+    padding: 8px;
+    line-height: 0px;
+    vertical-align: middle;
+}
+
+a:hover {
+	opacity: .85;
+    text-decoration: underline;
+}
+
+
+#notifications_icon {
+    background-color: rgba(0,0,0,.55);
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 5px;
+    padding: 0 2px;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+#notifications_icon:hover {
+	background-color: rgba(0,0,0,.85);
+}
+
+#options_icon {
+    opacity: .55;
+    width: 25px
+}
+
+#options_icon:hover {
+    opacity: 1;
+}
+
+#sign_in {
+	color: #fff;
+	font-weight: bold;
+	background: #4387fd;
+	border: 2px solid #4387fd;
+	border-radius: 3px;
+	padding: .7em 1em;
+}
+
+#sign_in:hover {
+	text-decoration: none;
+}
+
+#logo_img {
+    height: 130px;
+    width: 272px;
+    padding-top: 130px;
+    padding-bottom: 20px;
+}
+
+#search_input {
+    height: 35px;
+    width: 525px;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px grey;
+}
+
+form img {
+    position: absolute;
+    top: 337px;
+    margin-left: 550px;
+    opacity: .7;
+    float: left;
+}
+
+.search_button {
+    height: 40px;
+    line-height: 27px;
+    display: inline;
+    text-align: center;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+.search_button:hover {
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+
+#bottom_nav {
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    min-width: 98px;
+    line-height: 40px;
+    bottom: 0;
+    height: 40px;
+    position: absolute;
+    width: 100%;
+    display: inline;
+    margin-left: -8px;
+}
+
+#bottom_left_nav {
+    margin-left: 30px;
+}
+
+#bottom_right_nav {
+    margin-right: 30px;
+    float: right;
+}
+
